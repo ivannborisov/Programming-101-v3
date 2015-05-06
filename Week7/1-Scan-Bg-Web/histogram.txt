@@ -1,0 +1,25 @@
+Apache : 17
+nginx/1.6.3 : 2
+Apache/2.2.29 (Unix) mod_ssl/2.2.29 OpenSSL/1.0.1e-fips Phusion_Passenger/4.0.5 mod_bwlimited/1.4 mod_fcgid/2.3.9 mod_perl/2.0.8 Perl/v5.10.1 : 2
+Apache/2.4.10 (Ubuntu) PHP/5.5.15-1+deb.sury.org~precise+1 OpenSSL/1.0.1f : 1
+nginx/1.6.2 : 1
+Apache/1.3.41 (Unix) PHP/4.4.8 mod_ssl/2.8.31 OpenSSL/0.9.8g : 1
+Apache/2.2.8 (Ubuntu) PHP/5.2.4-2ubuntu5.3 with Suhosin-Patch : 1
+Apache/2.2.15 (CentOS) : 3
+Apache/2.2.4 (Unix) DAV/2 PHP/5.2.3 : 1
+Microsoft-IIS/7.5 : 1
+Apache/2.2.3 (CentOS) : 3
+Demandware eCommerce Server : 1
+nginx/1.0.10 : 1
+LiteSpeed : 1
+nginx : 3
+Apache/2.2 : 1
+Apache/2.2.22 (Ubuntu) : 1
+Apache/2 : 1
+IBM_HTTP_Server : 1
+Apache/2.4.6 (Unix) mpm-itk/2.4.6-01 PHP/5.3.28 : 1
+Apache/2.0.54 (Fedora) : 1
+lighttpd/1.4.31 : 1
+Apache/2.4.10 (Debian) : 1
+Secure Web/C2-1.097 : 1
+Apache/2.2.22 (Debian) : 2
