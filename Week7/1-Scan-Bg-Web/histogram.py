@@ -29,7 +29,6 @@ class Histogram:
         r = requests.get("http://register.start.bg/")
         html_doc = r.text
         soup = BeautifulSoup(html_doc)
-        i = 0
         for link in soup.find_all('a'):
             str_link = str(link.get('href'))
             if str_link.startswith("link"):
@@ -37,11 +36,9 @@ class Histogram:
                     req_head = self.make_head_req("http://register.start.bg/"+str_link)
                     print(req_head)
                     self.add(req_head)
-                    i += 1
                 except Exception:
                     pass
-            if i == 50:
-                break
+
 
     def save_in_file(self, file):
         with open(file, 'w') as file_:
