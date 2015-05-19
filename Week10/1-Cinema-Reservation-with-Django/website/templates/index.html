@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+{% block content %}
+		<h1>Welcome to our cinema</h1>
+		<div class="movies">
+			<h2>Last movies:</h2>
+			<article>
+				{% for movie in movies %}
+					
+					<h3> 
+						<a href="{% url 'movie_detail' movie.id %}">
+							{{movie.name}}
+						</a> 		
+						<span class="h3-title-descr">
+							- Rating({{movie.rating}})
+						</span>
+					</h3>	
+				{% endfor %} 
+			</article>
+		</div>
+
+{% endblock %}

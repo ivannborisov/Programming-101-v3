@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+	<h1>{{movie.name}} 
+		<span class="h1-title-descr">- Rating({{movie.rating}})</span>
+	</h1>
+	<h2>Projections:</h2>
+	{% if projections %}
+		<ul>
+			{% for proj in projections %}
+				<li>{{proj.proj_type}} - {{proj.proj_date}} {{proj.proj_time}}</li>
+			{% endfor %}
+		</ul>
+	{% endif %}
+
+{% endblock %}
