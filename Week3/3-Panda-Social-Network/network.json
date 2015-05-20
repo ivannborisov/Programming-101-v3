@@ -1,0 +1,17 @@
+{
+ "Panda4": [
+  "Panda3"
+ ],
+ "Panda5": [],
+ "Panda3": [
+  "Panda2",
+  "Panda4"
+ ],
+ "Panda1": [
+  "Panda2"
+ ],
+ "Panda2": [
+  "Panda1",
+  "Panda3"
+ ]
+}
